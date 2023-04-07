@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  background-color: white;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+  font-size: 15px;
+}
+
+.link {
+  flex: 1;
+  width: 100%;
+}
+
+a {
+  color: black;
+}
+
+input {
+  background-color: black;
+  width: 80%;
+  color: white;
+  border: none;
+}
+
+h1 {
+  display: inline-block;
+}
+form {
+  text-align: center;
+  flex: 8;
+  display: inline-block;
+}
